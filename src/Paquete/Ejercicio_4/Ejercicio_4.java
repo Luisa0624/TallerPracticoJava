@@ -19,7 +19,7 @@ public class Ejercicio_4 {
         precio= reader.nextInt();
 
         precioIVA=(precio*IVA);
-        precioTotal=(precio*IVA)+precio;
+        precioTotal=precioIVA+precio;
         System.out.println("El precio del iva es: " + formatea.format(precioIVA));
         System.out.println("El precio final del producto con el 21% es: " +formatea.format(precioTotal));
     }
