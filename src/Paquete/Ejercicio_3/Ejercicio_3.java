@@ -1,4 +1,4 @@
-package Paquete;
+package Paquete.Ejercicio_3;
 
 import java.util.Scanner;
 
