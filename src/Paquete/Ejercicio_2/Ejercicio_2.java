@@ -17,7 +17,7 @@ public class Ejercicio_2 {
         if (numero1 > numero2) {
             System.out.println("El número 1 es mayor");
         } else if (numero1 < numero2) {
-            System.out.println("El número 2 es mayor");
+            System.out.println("El número 2 es menor ");
         } else {
             System.out.println("Los números son iguales");
         }
